@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
     spec.authors      = { 'Oleksii Dobush' => 'dobush.oleksij@gmail.com' }
     spec.source       = { :git => 'https://github.com/Odobush1/SpringSegmentView.git', :tag => spec.version.to_s }
 
-    spec.source_files  = 'SpringSegmentView/**/*'
+    spec.source_files  = 'SpringSegmentView/*'
 
 end
