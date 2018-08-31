@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = 'SpringSegmentView'
-    spec.version      = '0.0.1'
+    spec.version      = '0.1.0'
     spec.summary      = 'Segment View with springing pointer. Based on UIStackView.'
     spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
 
     spec.homepage     = 'https://github.com/<GITHUB_USERNAME>/SpringSegmentView'
     spec.authors      = { 'Oleksii Dobush' => 'dobush.oleksij@gmail.com' }
-    spec.source       = { :git => 'https://github.com/Odobush1/SpringSegmentView.git', :tag => spec.version.to_s }
+    spec.source       = { :git => 'https://github.com/<GITHUB_USERNAME>/SpringSegmentView.git', :tag => spec.version.to_s }
 
-    spec.source_files  = 'SpringSegmentView/*'
+    spec.source_files  = 'SpringSegmentView/Classes/**/*'
 
 end
